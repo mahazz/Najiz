@@ -1,0 +1,21 @@
+// ------------------------------------------
+// Global
+// ------------------------------------------
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Almarai-Regular';
+  line-height: 1.4;
+}

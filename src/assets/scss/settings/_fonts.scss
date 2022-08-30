@@ -1,0 +1,13 @@
+// ------------------------------------------
+//  Fonts
+// ------------------------------------------
+/* stylelint-disable */
+$font-default: 'Almarai-Regular';
+$font-default-path:  '../fonts/Almarai/Almarai-Regular';
+
+@font-face {
+  font-family: 'Almarai-Regular';
+  src:
+    url($font-default-path + '.ttf') format('truetype');
+}
+/* stylelint-enable */
